@@ -1,0 +1,27 @@
+{
+  "name": "anchor-debug-skill",
+  "version": "1.0.0",
+  "description": "Anchor program debugging toolkit. Decodes transaction error codes (3000-5000), simulates transactions, traces instruction calls, parses program logs, and provides fix suggestions for common Anchor errors.",
+  "type": "module",
+  "main": "scripts/index.mjs",
+  "bin": {
+    "anchor-debug": "scripts/index.mjs"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node scripts/index.mjs demo"
+  },
+  "keywords": [
+    "solana",
+    "anchor",
+    "debug",
+    "errors",
+    "transactions",
+    "simulation",
+    "logs"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
