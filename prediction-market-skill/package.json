@@ -1,0 +1,27 @@
+{
+  "name": "prediction-market-skill",
+  "version": "1.0.0",
+  "description": "Prediction market data + trading for Solana agents. Supports Polymarket (EVM), Drift Protocol (Solana), and Kalshi (US). Includes market discovery, pricing analysis, position tracking, and AI agent decision patterns.",
+  "type": "module",
+  "main": "scripts/index.mjs",
+  "bin": {
+    "solana-prediction": "scripts/index.mjs"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node scripts/index.mjs demo"
+  },
+  "keywords": [
+    "solana",
+    "prediction-markets",
+    "polymarket",
+    "drift",
+    "kalshi",
+    "trading",
+    "ai-agents"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
