@@ -1,0 +1,19 @@
+{
+  "protocol": "meteora",
+  "position_address": "ExampleMeteoraPosition111111111111111111111111",
+  "initial": {
+    "price_lower": 1.00,
+    "price_upper": 1.05,
+    "amount_token_0": 500,
+    "amount_token_1": 510,
+    "amount_token_0_symbol": "USDC",
+    "amount_token_1_symbol": "USDT",
+    "value_usd": 1010
+  },
+  "current": {
+    "price": 1.02,
+    "amount_token_0": 250,
+    "amount_token_1": 510,
+    "value_usd": 1010
+  }
+}

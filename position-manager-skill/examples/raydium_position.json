@@ -1,0 +1,19 @@
+{
+  "protocol": "raydium",
+  "position_address": "ExampleRaydiumPosition1111111111111111111111111",
+  "initial": {
+    "price_lower": 0.0000050,
+    "price_upper": 0.0000080,
+    "amount_token_0": 100000000,
+    "amount_token_1": 650,
+    "amount_token_0_symbol": "BONK",
+    "amount_token_1_symbol": "USDC",
+    "value_usd": 650
+  },
+  "current": {
+    "price": 0.0000045,
+    "amount_token_0": 144444444,
+    "amount_token_1": 0,
+    "value_usd": 540
+  }
+}

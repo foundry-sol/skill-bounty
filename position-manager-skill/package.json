@@ -1,0 +1,40 @@
+{
+  "name": "@foundry/position-manager-skill",
+  "version": "1.0.0",
+  "description": "CLMM position manager for Orca Whirlpools / Raydium CLMM / Meteora DLMM — track impermanent loss, alert on out-of-range positions, and suggest rebalances. Built as a Solana AI Kit skill by Foundry.",
+  "main": "scripts/fetch_positions.mjs",
+  "type": "module",
+  "scripts": {
+    "fetch-positions": "node scripts/fetch_positions.mjs",
+    "calculate-il": "node scripts/calculate_il.mjs",
+    "check-range": "node scripts/check_outofrange.mjs",
+    "suggest-rebalance": "node scripts/suggest_rebalance.mjs",
+    "test": "node --test tests/",
+    "lint": "node --check scripts/*.mjs && node --check tests/*.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "solana",
+    "clmm",
+    "orca",
+    "raydium",
+    "meteora",
+    "impermanent-loss",
+    "liquidity",
+    "ai-skill",
+    "foundry"
+  ],
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "@orca-so/whirlpools-sdk": "^0.13.0"
+  },
+  "devDependencies": {},
+  "author": "Foundry (https://github.com/foundry-sol)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foundry-sol/position-manager-skill.git"
+  }
+}

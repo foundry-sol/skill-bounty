@@ -1,0 +1,19 @@
+{
+  "protocol": "orca",
+  "position_address": "ExampleOrcaPosition1111111111111111111111111111",
+  "initial": {
+    "price_lower": 145,
+    "price_upper": 165,
+    "amount_token_0": 10,
+    "amount_token_1": 1450,
+    "amount_token_0_symbol": "SOL",
+    "amount_token_1_symbol": "USDC",
+    "value_usd": 2900
+  },
+  "current": {
+    "price": 155,
+    "amount_token_0": 7.5,
+    "amount_token_1": 1162.5,
+    "value_usd": 3100
+  }
+}
