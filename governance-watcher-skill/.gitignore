@@ -1,0 +1,6 @@
+node_modules/
+*.log
+.DS_Store
+governance-alerts.json
+test-output/
+coverage/

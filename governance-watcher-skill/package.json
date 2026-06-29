@@ -1,0 +1,27 @@
+{
+  "name": "governance-watcher-skill",
+  "version": "1.0.0",
+  "description": "Solana DAO governance monitoring for AI agents. Tracks proposals, voting periods, and outcomes across Realms (SPL Governance). Includes alert rules for proposal types, vote deadlines, and quorum thresholds.",
+  "type": "module",
+  "main": "scripts/index.mjs",
+  "bin": {
+    "solana-governance": "scripts/index.mjs"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node scripts/index.mjs demo"
+  },
+  "keywords": [
+    "solana",
+    "governance",
+    "dao",
+    "realms",
+    "voting",
+    "spl-governance",
+    "ai-agents"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
