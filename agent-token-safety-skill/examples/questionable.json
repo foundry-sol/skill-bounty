@@ -1,0 +1,30 @@
+{
+  "mint": "ExampleMidRisk11111111111111111111111111111111",
+  "holders": {
+    "total_holders": 300,
+    "top_10_pct": 50,
+    "top_1_pct": 15
+  },
+  "authorities": {
+    "mint_authority": null,
+    "freeze_authority": null,
+    "supply": "1000000000000000",
+    "decimals": 9
+  },
+  "liquidity": {
+    "liquidity_usd": 15000,
+    "volume_24h_usd": 30000,
+    "pool_age_days": 14
+  },
+  "social": {
+    "has_twitter": true,
+    "has_website": false,
+    "twitter": "https://x.com/midriskexample",
+    "twitter_followers": 500
+  },
+  "trading": {
+    "volume_24h": 30000,
+    "buy_sell_ratio": 0.5,
+    "price_change_24h_pct": 5
+  }
+}

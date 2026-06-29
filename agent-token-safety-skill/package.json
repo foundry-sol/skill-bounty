@@ -1,0 +1,38 @@
+{
+  "name": "@foundry/agent-token-safety-skill",
+  "version": "1.0.0",
+  "description": "Safety scoring skill for Solana tokens — holder concentration, LP lock, mint/freeze authority, social presence, wash-trade signals, and a single risk grade. Built as a Solana AI Kit skill by Foundry.",
+  "main": "scripts/assess_safety.mjs",
+  "type": "module",
+  "scripts": {
+    "assess": "node scripts/assess_safety.mjs",
+    "fetch-holders": "node scripts/fetch_holders.mjs",
+    "fetch-authorities": "node scripts/fetch_authorities.mjs",
+    "fetch-social": "node scripts/fetch_social.mjs",
+    "test": "node --test tests/",
+    "lint": "node --check scripts/*.mjs && node --check tests/*.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "solana",
+    "token",
+    "safety",
+    "rug-pull",
+    "scam-detection",
+    "holder-concentration",
+    "ai-skill",
+    "foundry"
+  ],
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0"
+  },
+  "devDependencies": {},
+  "author": "Foundry (https://github.com/foundry-sol)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foundry-sol/agent-token-safety-skill.git"
+  }
+}

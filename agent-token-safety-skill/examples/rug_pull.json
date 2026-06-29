@@ -1,0 +1,28 @@
+{
+  "mint": "ExampleScam11111111111111111111111111111111111",
+  "holders": {
+    "total_holders": 50,
+    "top_10_pct": 95,
+    "top_1_pct": 60
+  },
+  "authorities": {
+    "mint_authority": "ActiveAuthority111111111111111111111111111111",
+    "freeze_authority": null,
+    "supply": "1000000000000000",
+    "decimals": 9
+  },
+  "liquidity": {
+    "liquidity_usd": 500,
+    "volume_24h_usd": 10000,
+    "pool_age_days": 1
+  },
+  "social": {
+    "has_twitter": false,
+    "has_website": false
+  },
+  "trading": {
+    "volume_24h": 10000,
+    "buy_sell_ratio": 0.1,
+    "price_change_24h_pct": -30
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "mint": "ExampleToken1111111111111111111111111111111111",
+  "holders": {
+    "total_holders": 5000,
+    "top_10_pct": 15,
+    "top_1_pct": 3
+  },
+  "authorities": {
+    "mint_authority": null,
+    "freeze_authority": null,
+    "supply": "1000000000000000",
+    "decimals": 9
+  },
+  "liquidity": {
+    "liquidity_usd": 500000,
+    "volume_24h_usd": 100000,
+    "pool_age_days": 90
+  },
+  "social": {
+    "has_twitter": true,
+    "has_website": true,
+    "twitter": "https://x.com/exampletoken",
+    "website": "https://exampletoken.com",
+    "telegram": null,
+    "twitter_followers": 10000
+  },
+  "trading": {
+    "volume_24h": 100000,
+    "volume_7d": 700000,
+    "txns_24h_buys": 250,
+    "txns_24h_sells": 230,
+    "buy_sell_ratio": 1.09,
+    "price_change_24h_pct": 2.1
+  }
+}
