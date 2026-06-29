@@ -1,0 +1,34 @@
+{
+  "name": "solana-staking-yield-skill",
+  "version": "1.0.0",
+  "description": "Validator selection, native staking, and LST (liquid staking token) yield comparison for Solana AI agents",
+  "type": "module",
+  "main": "scripts/index.mjs",
+  "bin": {
+    "solana-staking-yield": "scripts/index.mjs"
+  },
+  "scripts": {
+    "test": "node --test tests/",
+    "fetch-validators": "node scripts/fetch_validators.mjs",
+    "score": "node scripts/score_validator.mjs",
+    "simulate": "node scripts/simulate_stake.mjs",
+    "compare-lsts": "node scripts/lst_yield_comparison.mjs"
+  },
+  "keywords": [
+    "solana",
+    "staking",
+    "validator",
+    "lst",
+    "jitoSOL",
+    "mSOL",
+    "ai-agent",
+    "skill"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_comment": "Sample validator list for testing score_validator.mjs",
+  "network": "mainnet",
+  "epoch": 350,
+  "validators": [
+    {
+      "votePubkey": "Vote111111111111111111111111111111111111111",
+      "nodePubkey": "goodvalidator",
+      "name": "goodvalidator",
+      "commissionPct": 5,
+      "activatedStakeSol": 85000,
+      "stakeSharePct": 0.18,
+      "lastEpochCredits": 1450000,
+      "status": "active"
+    },
+    {
+      "votePubkey": "Vote222222222222222222222222222222222222222",
+      "nodePubkey": "greedyval",
+      "name": "greedyval",
+      "commissionPct": 50,
+      "activatedStakeSol": 120000,
+      "stakeSharePct": 0.25,
+      "lastEpochCredits": 1500000,
+      "status": "active"
+    },
+    {
+      "votePubkey": "Vote333333333333333333333333333333333333333",
+      "nodePubkey": "offlineval",
+      "name": "offlineval",
+      "commissionPct": 10,
+      "activatedStakeSol": 5000,
+      "stakeSharePct": 0.01,
+      "lastEpochCredits": 0,
+      "status": "delinquent"
+    },
+    {
+      "votePubkey": "Vote444444444444444444444444444444444444444",
+      "nodePubkey": "whalestake",
+      "name": "whalestake",
+      "commissionPct": 5,
+      "activatedStakeSol": 13000000,
+      "stakeSharePct": 12.5,
+      "lastEpochCredits": 1600000,
+      "status": "active"
+    },
+    {
+      "votePubkey": "Vote555555555555555555555555555555555555555",
+      "nodePubkey": "zerocommission",
+      "name": "zerocommission",
+      "commissionPct": 0,
+      "activatedStakeSol": 200000,
+      "stakeSharePct": 0.4,
+      "lastEpochCredits": 1500000,
+      "status": "active"
+    }
+  ]
+}
