@@ -1,0 +1,40 @@
+{
+  "_comment": "Sample multi-agent setup for a Solana security audit workflow",
+  "agents": [
+    {
+      "id": "scout-bot",
+      "capabilities": ["scan", "monitor"],
+      "role": "Finds new pools, monitors for unusual activity",
+      "tools": ["jupiter-api", "dexscreener-api"]
+    },
+    {
+      "id": "audit-bot",
+      "capabilities": ["audit", "verify"],
+      "role": "Reviews contracts, runs static analysis, validates findings",
+      "tools": ["slither", "foundry-test", "anchor-idl"]
+    },
+    {
+      "id": "trader-bot",
+      "capabilities": ["swap", "analyze-market"],
+      "role": "Executes trades based on consensus decisions",
+      "tools": ["jupiter-swap", "jito-bundle"]
+    }
+  ],
+  "task_examples": [
+    {
+      "id": "scan-jupiter-pools",
+      "requiredCapability": "scan",
+      "payload": { "endpoint": "https://api.jup.ag/pools", "filter": "high-volume" }
+    },
+    {
+      "id": "audit-token-mint",
+      "requiredCapability": "audit",
+      "payload": { "contract": "Tokenk...Q5", "checks": ["mint-authority", "freeze-authority"] }
+    },
+    {
+      "id": "verify-tx-simulation",
+      "requiredCapability": "verify",
+      "payload": { "tx": "BASE64_ENCODED_TX" }
+    }
+  ]
+}
