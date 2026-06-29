@@ -1,0 +1,29 @@
+{
+  "_comment": "Sample pool configurations for testing sandwich detection",
+  "pools": [
+    {
+      "name": "SOL/USDC (deep, low risk)",
+      "reserveIn": 5000000,
+      "reserveOut": 360000000,
+      "feeBps": 20
+    },
+    {
+      "name": "Mid-cap altcoin (moderate risk)",
+      "reserveIn": 500000,
+      "reserveOut": 50000000,
+      "feeBps": 30
+    },
+    {
+      "name": "Thin altcoin pool (high risk)",
+      "reserveIn": 50000,
+      "reserveOut": 5000000,
+      "feeBps": 30
+    },
+    {
+      "name": "Memecoin (extreme risk)",
+      "reserveIn": 5000,
+      "reserveOut": 500000,
+      "feeBps": 100
+    }
+  ]
+}

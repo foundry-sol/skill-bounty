@@ -1,0 +1,27 @@
+{
+  "name": "mev-sentry-skill",
+  "version": "1.0.0",
+  "description": "MEV protection for Solana agents. Detects sandwich attack risk, estimates Jito tips, simulates sandwich outcomes, and recommends protection strategies (private mempool, Jito bundles, slippage tuning).",
+  "type": "module",
+  "main": "scripts/index.mjs",
+  "bin": {
+    "solana-mev-sentry": "scripts/index.mjs"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node scripts/index.mjs demo"
+  },
+  "keywords": [
+    "solana",
+    "mev",
+    "jito",
+    "sandwich-attack",
+    "front-running",
+    "mempool",
+    "trading"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
