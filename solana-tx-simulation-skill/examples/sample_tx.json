@@ -1,0 +1,5 @@
+{
+  "tx": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+  "rpc": "https://api.mainnet-beta.solana.com",
+  "_comment": "This is a placeholder. Replace with a real base64-encoded transaction from your wallet or builder script."
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@foundry/solana-tx-simulation-skill",
+  "version": "1.0.0",
+  "description": "Simulate Solana transactions before signing — returns token balance changes, SOL deltas, compute units, and success/failure prediction. Critical pre-flight check for AI agents. Built for the Solana AI Kit by Foundry.",
+  "main": "scripts/simulate_tx.mjs",
+  "type": "module",
+  "scripts": {
+    "simulate": "node scripts/simulate_tx.mjs",
+    "test": "node --test tests/",
+    "lint": "node --check scripts/*.mjs && node --check tests/*.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "solana",
+    "transaction",
+    "simulation",
+    "preview",
+    "mev-protection",
+    "pre-flight",
+    "ai-skill",
+    "foundry"
+  ],
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0"
+  },
+  "devDependencies": {},
+  "author": "Foundry (https://github.com/foundry-sol)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foundry-sol/solana-tx-simulation-skill.git"
+  }
+}
