@@ -1,0 +1,37 @@
+{
+  "_comment": "Example NFT data for testing rarity calculations",
+  "collection": "Example Collection",
+  "totalSupply": 10000,
+  "nfts": [
+    {
+      "mint": "example1",
+      "name": "Common NFT",
+      "collection": "example",
+      "attributes": [
+        {"trait_type": "Background", "value": "Blue"},
+        {"trait_type": "Fur", "value": "Brown"},
+        {"trait_type": "Hat", "value": "Cap"}
+      ]
+    },
+    {
+      "mint": "example2",
+      "name": "Rare NFT",
+      "collection": "example",
+      "attributes": [
+        {"trait_type": "Background", "value": "Gold"},
+        {"trait_type": "Fur", "value": "Pink"},
+        {"trait_type": "Hat", "value": "Halo"}
+      ]
+    },
+    {
+      "mint": "example3",
+      "name": "Common NFT 2",
+      "collection": "example",
+      "attributes": [
+        {"trait_type": "Background", "value": "Blue"},
+        {"trait_type": "Fur", "value": "Brown"},
+        {"trait_type": "Hat", "value": "Cap"}
+      ]
+    }
+  ]
+}

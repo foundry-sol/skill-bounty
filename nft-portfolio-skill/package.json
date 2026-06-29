@@ -1,0 +1,27 @@
+{
+  "name": "nft-portfolio-skill",
+  "version": "1.0.0",
+  "description": "NFT portfolio tracking for Solana agents. Pulls holdings from Solana RPC, fetches floor prices from Magic Eden and Tensor, calculates portfolio value and P&L, supports multi-wallet aggregation.",
+  "type": "module",
+  "main": "scripts/index.mjs",
+  "bin": {
+    "solana-nft-portfolio": "scripts/index.mjs"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node scripts/index.mjs demo"
+  },
+  "keywords": [
+    "solana",
+    "nft",
+    "portfolio",
+    "magic-eden",
+    "tensor",
+    "valuation",
+    "ai-agents"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
