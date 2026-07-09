@@ -1,0 +1,29 @@
+{
+  "name": "solana-trade-orchestrator",
+  "version": "0.1.0",
+  "description": "Orchestrates agent-token-safety, position-manager, mev-sentry into a single trade evaluation pipeline for Solana agents.",
+  "main": "scripts/evaluate_trade.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node scripts/evaluate_trade.mjs MUMUonG1wnsfCtSaP7LLaEfEEBuYBP8xBhMY7r8pump BUY 100"
+  },
+  "keywords": [
+    "solana",
+    "ai",
+    "agent",
+    "trading",
+    "orchestration",
+    "defi"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "agent-token-safety-skill": "file:../agent-token-safety-skill",
+    "mev-sentry-skill": "file:../mev-sentry-skill",
+    "position-manager-skill": "file:../position-manager-skill",
+    "solana-staking-yield-skill": "file:../solana-staking-yield-skill"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
